@@ -55,9 +55,18 @@ In progress —  covering descriptive statistics
 time trends). Final version will be built out in Power BI.
 
 ---
+## 📸 Previews
 
+### 1. Order & Delivery Performance
+![Order & Delivery Performance](images/Order%20&%20Delivery%20Performance_dashboard.jpeg)
 
+### 2. Sales Profitability & Regional Detail
+![Sales Profitability & Regional Detail](images/Sales%20Profitability%20&%20Regional%20Detail_dashboard.jpeg)
 
+### 3. Star Schema Data Model
+![Star Schema Model View](images/Star_schema_model_view.jpeg)
+
+---
 ## Tech stack
 
 - **Power BI Desktop** — target platform for the final production dashboards
@@ -75,7 +84,6 @@ FACT_Orders ──< DIM_Customers (Customer ID)
             ──< DIM_Date      (Order Date)
             ──< DIM_Geography (Order Region)
             ──< DIM_Order(Order ID)
-```
 
 ---
 
